@@ -1,3 +1,26 @@
+#requirements
+- only php 8.0.28 / 8.0.29
+- npm 8.19.4 / node v16.20.2
+- laragon (recomended) / xampp
+
+#installation
+- clone repo (git clone https://github.com/gink-gobi/sarpras5.git) or (git clone https://github.com/lutf87/sarpras5.git)
+- composer update
+- npm run build
+- php artisan key:generate
+- php artisan migrate:fresh --seed
+- php artisan serve
+
+#login
+- user : admin
+- pass : admin
+
+
+GOOD LUCK!
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
